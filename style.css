@@ -1,0 +1,254 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+header{
+    padding: 25px;
+    font-size: 25px;
+}
+.col-10 col-sm-8 col-lg-6 {
+    border-radius: 50%;
+}
+h1{
+    font-size: 200spx;
+    font-weight: bolder;
+    font-family: fantasy;
+}
+
+
+
+#sticky-sidebar {
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 40%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: whitesmoke;
+  }
+  
+  #sticky-sidebar a {
+    padding: 20px 15px 20px 13px;
+  }
+  
+  #github {
+    padding-top: 9.5px;
+  }
+  
+  .fa-brands {
+    color: white;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .fa-brands:hover {
+    color: whitesmoke;
+  }
+
+
+  #skill-container h3 {
+    padding-left: 0.2rem;
+  }
+  
+  #skills {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    align-items: flex-start;
+  }
+  
+  #skills div {
+    border-radius: 5px;
+    background-color: whitesmoke;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 2.4rem;
+    width: 5.9rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    transition: 0.3s ease-in-out;
+    padding-top: 2px;
+  }
+  
+  #skills div:hover {
+    animation: effect 0.7s ease-in-out;
+    color: blue;
+    cursor: default;
+  }
+  
+  @keyframes effect {
+    0% {
+      transform: rotate(4deg);
+    }
+    30% {
+      transform: rotate(-4deg);
+    }
+    60% {
+      transform: rotate(4deg);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+#project-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* #project-section h2 {
+    margin: 120px auto 40px auto;
+  } */
+  
+  /* #project-section hr {
+    margin: 0 auto 40px auto;
+  }
+   */
+  #projects-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    padding: 0 0 20px 0;
+    margin: 20px;
+    border-radius: 30px 30px 22px 22px;
+    max-width: 350px;
+    min-width: 250px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .project-bg:hover {
+    background-color: var(--darkpurple);
+  }
+  
+  .project-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 22px 22px 0 0;
+  }
+  
+  .project-bg p {
+    padding-top: 18px;
+  }
+  
+  #seemore-button {
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.4rem;
+    width: 5.9rem;
+    background-color: blue;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 12px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  #seemore-button:hover {
+    background-color: var(--darkpurple);
+  }
+
+  #contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 780px;
+    top: 0;
+    /* margin: 20px auto; */
+  }
+  
+  /* #contact-section h2 {
+    margin: 90px auto 40px auto;
+  } */
+  
+  #contact-section hr {
+    margin-bottom: 30px;
+  }
+  
+  #contact-section p {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 20px;
+  }
+  
+  #email-form-container {
+    background-color: var(--lightpurple);
+    padding: 7px 15px 20px 15px;
+    margin-top: 45px;
+    border-radius: 20px;
+    width: 88vw;
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-width: 190px;
+    z-index: 2;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-item {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+    caret-color: var(--medpurple);
+    background-color: white;
+  }
+  
+  textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 470px;
+  }
+  
+  #submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: blue;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    height: 2.4rem;
+    width: 5.9rem;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  
+  #submit-button:hover {
+    background-color: var(--darkpurple);
+  }
