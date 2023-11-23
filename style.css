@@ -8,6 +8,18 @@ header{
     padding: 25px;
     font-size: 25px;
 }
+.navbar{
+  position: fixed;
+    top:0; left: 0; right:0;
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+}
+ul{
+  margin-left: 25%;
+}
+ul li {
+  padding-left: 25px;
+}
 .col-10 col-sm-8 col-lg-6 {
     border-radius: 50%;
 }
