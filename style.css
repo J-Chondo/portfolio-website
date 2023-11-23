@@ -14,11 +14,11 @@ header{
     box-shadow: var(--box-shadow);
     z-index: 1000;
 }
-ul{
+.navbar-nav{
   margin-left: 25%;
 }
-ul li {
-  padding-left: 25px;
+nav-item {
+  padding-left: 20px;
 }
 .col-10 col-sm-8 col-lg-6 {
     border-radius: 50%;
